@@ -10,6 +10,10 @@ header {
 
 /* UTILITIES */
 
+.subtitle {
+    color: #7e7e7e;
+    font-size: 1.2rem;
+}
 
 /* BUTTONS */
 
@@ -24,8 +28,27 @@ header {
 
 /* HEADER */
 
+body {
+    padding-top: 110px;
+}
+
+header {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.brand {
+
+}
+
 .brand img {
     width: 80px;
+}
+
+.site-nav {
+    background-color: #fff;
 }
 
 .site-menu .menu-item {
@@ -44,6 +67,8 @@ header {
 .hero {
     background-image: url(../img/jumbo-bg.png);
     background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .hero-col {
@@ -54,3 +79,19 @@ header {
     width: 55%;
 }
 
+/* MAIN GALLERY */
+
+.main-gallery .main-gallery-card img {
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+/* PS5 SECTION */
+
+.claim {
+    color: #107ad0;
+}
+
+.presentation-card img {
+    max-width: 100%;
+}
