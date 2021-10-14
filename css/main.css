@@ -1,9 +1,25 @@
+/* FONTS */
+
 body {
     font-family: Arial, sans-serif;
 }
 
 header {
     font-family: Helvetica, sans-serif;
+}
+
+/* UTILITIES */
+
+
+/* BUTTONS */
+
+.site-btn {
+    border-radius: 30px;
+    border: 0;
+}
+
+.site-btn-orange {
+    background-color: #cd3d0f;
 }
 
 /* HEADER */
@@ -19,11 +35,22 @@ header {
 .site-nav .menu-link .fa-chevron-down {
     font-size: 0.5rem;
     vertical-align: middle;
-    color: #a6a6a6;
+    color: grey;
+    margin-left: 3px;
 }
 
+/* HERO */
 
-.menu-cta .menu-item .user-area {
-    font-size: 1.2rem;
+.hero {
+    background-image: url(../img/jumbo-bg.png);
+    background-position: top;
+}
+
+.hero-col {
+    height: 550px;
+}
+
+.hero-col img {
+    width: 55%;
 }
 
