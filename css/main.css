@@ -47,6 +47,20 @@ header {
     background-color: #cd3d0f;
 }
 
+/* BACKGROUNDS */
+
+.bg-grey {
+    background-color: #bebcbb;
+}
+
+.bg-blue {
+    background-color: #161c3b;
+}
+
+.bg-footer {
+    background-color: #00439c;
+}
+
 /* HEADER */
 
 body {
@@ -97,6 +111,7 @@ header {
 
 .presentation-card img {
     max-width: 100%;
+    display: block;
 }
 
 @media screen and (min-width: 768px) {
@@ -109,6 +124,12 @@ header {
 
 .second-hero {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+/* FEATURE SECTION */
+
+.feature-logo img {
+    max-width: 70%;
 }
 
 
