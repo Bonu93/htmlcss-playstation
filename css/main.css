@@ -15,6 +15,27 @@ header {
     font-size: 1.2rem;
 }
 
+.hero {
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 0;
+}
+
+.hero-col {
+    height: 550px;
+}
+
+.hero-col img {
+    width: 55%;
+}
+
+.gallery .gallery-card img {
+    max-width: 100%;
+    border-radius: 15px;
+    display: block;
+}
+
 /* BUTTONS */
 
 .site-btn {
@@ -64,26 +85,8 @@ header {
 
 /* HERO */
 
-.hero {
+.main-hero {
     background-image: url(../img/jumbo-bg.png);
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.hero-col {
-    height: 550px;
-}
-
-.hero-col img {
-    width: 55%;
-}
-
-/* MAIN GALLERY */
-
-.main-gallery .main-gallery-card img {
-    max-width: 100%;
-    border-radius: 15px;
 }
 
 /* PS5 SECTION */
@@ -95,3 +98,19 @@ header {
 .presentation-card img {
     max-width: 100%;
 }
+
+@media screen and (min-width: 768px) {
+    .presentation-card.list img {
+        width: 60%;
+    } 
+}
+
+/* SECOND HERO */
+
+.second-hero {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+
+
+
