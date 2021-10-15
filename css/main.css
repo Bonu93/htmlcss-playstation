@@ -132,6 +132,14 @@ header {
     max-width: 70%;
 }
 
+/* SOCIAL SECTION */
+
+@media screen and (min-width:576px) {
+    .social .container {
+        width: 540px;
+    }
+}
+
 
 
 
