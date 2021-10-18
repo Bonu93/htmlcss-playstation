@@ -38,6 +38,7 @@ header {
 .gallery .gallery-card img {
     max-width: 100%;
     display: block;
+    border-radius: 15px;
 }
 
 /* BUTTONS */
@@ -157,7 +158,6 @@ header {
     color: #107ad0;
 }
 
-
 /* HERO */
 
 .main-hero {
@@ -185,8 +185,6 @@ header {
         width: 70%;
     } 
 }
-
-
 
 .presentation-card.list:hover {
     border-bottom: 3px solid #107ad0;
