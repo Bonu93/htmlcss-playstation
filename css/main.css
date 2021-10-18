@@ -48,6 +48,7 @@ header {
     border: 0;
     padding: 10px 12px;
     vertical-align: middle;
+    text-align: center;
 }
 
 .site-btn-primary {
