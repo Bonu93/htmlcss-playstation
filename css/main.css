@@ -41,7 +41,8 @@ header {
 .site-btn {
     border-radius: 30px;
     border: 0;
-    padding: 5px 12px;
+    padding: 10px 12px;
+    vertical-align: middle;
 }
 
 .site-btn-primary {
@@ -49,14 +50,19 @@ header {
     color: #fff;
 }
 
+.site-btn-primary:hover {
+    outline-offset: -5px;
+    outline: 3px solid white;
+}
+
 .site-btn-orange {
     background-color: #cd3d0f;
     color: #fff;
 }
 
-.site-btn:hover {
-    outline-offset: -3px;
-    outline: 2px solid black;
+.site-btn-orange:hover {
+    outline-offset: -5px;
+    outline: 3px solid white;
 }
 
 .site-btn-transp {
@@ -64,14 +70,29 @@ header {
     color: #107ad0;
 }
 
+.site-btn-transp:hover {
+    outline-offset: -5px;
+    outline: 3px solid #107ad0;
+}
+
 .site-btn-white {
     background-color: #fff;
     color: black;
 }
 
+.site-btn-white:hover {
+    outline-offset: -5px;
+    outline: 3px solid black;
+}
+
 .site-btn-dark {
     background-color: black;
     color: #fff;
+}
+
+.site-btn-dark:hover {
+    outline-offset: -5px;
+    outline: 3px solid white;
 }
 
 /* BACKGROUNDS */
@@ -124,6 +145,20 @@ header {
     margin-left: 3px;
 }
 
+.site-nav .menu-link:hover .fa-chevron-down {
+    color: #107ad0;
+}
+
+.site-menu .menu-item .menu-link {
+    color: black;
+}
+
+.site-menu .menu-item .menu-link:hover {
+    color: #107ad0;
+}
+
+
+
 /* HERO */
 
 .main-hero {
@@ -138,13 +173,16 @@ header {
 
 .presentation-card img {
     max-width: 100%;
-    display: block;
 }
 
 @media screen and (min-width: 768px) {
     .presentation-card.list img {
         width: 60%;
     } 
+}
+
+.presentation-card.list:hover {
+    border-bottom: 3px solid #107ad0;
 }
 
 /* SECOND HERO */
